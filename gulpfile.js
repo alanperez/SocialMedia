@@ -16,7 +16,7 @@ gulp.task(
 	'styles',
 	gulp.series(() => {
 		return gulp
-			.src('resources/assets/scss/**/*.scss')
+			.src('./resources/assets/scss/**/*.scss')
 			.pipe(
 				sass({
 					outputStyle: 'compressed'
