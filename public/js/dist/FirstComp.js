@@ -55,9 +55,9 @@
         return Object.prototype.hasOwnProperty.call(object, property);
     };
     __webpack_require__.p = "";
-    return __webpack_require__(__webpack_require__.s = "./resources/assets/js/FirstComp/FirstComp.js");
+    return __webpack_require__(__webpack_require__.s = "./resources/assets/js/components/FirstComp.js");
 })({
-    "./resources/assets/js/FirstComp/FirstComp.js": function(module, exports) {
-        eval("\n\n//# sourceURL=webpack:///./resources/assets/js/FirstComp/FirstComp.js?");
+    "./resources/assets/js/components/FirstComp.js": function(module, exports) {
+        eval("\n\n//# sourceURL=webpack:///./resources/assets/js/components/FirstComp.js?");
     }
 });
