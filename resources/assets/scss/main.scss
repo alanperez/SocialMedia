@@ -144,10 +144,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', end
             background: $red;
             color: white;
             font-size: .6rem;
-            top: -5px;
-            right: -5px;
+            top: -7px;
+            right: -7px;
             padding: 2px 5px;
-            border: 1px solid white;
+            border: 3px solid white;
             border-radius: 5px;
 
             &.active {
@@ -157,6 +157,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', end
 
       }
     }
+  }
+  #messenger {
+    background: $darksideBlue;
   }
 }
 
