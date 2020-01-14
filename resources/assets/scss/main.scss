@@ -233,6 +233,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', end
       }
     }
   }
+
+  #updates {
+    .update-container{
+      max-width: 600px;
+      width: 100%;
+      margin: 0 auto;
+      .author-info {
+        .user-img {
+          display: inline-block;
+          background: url('https://s3.amazonaws.com/uifaces/faces/twitter/sillyleo/128.jpg');
+          height: 40px;
+          width: 40px;
+          background-position: center center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          border-radius: 50%;
+          border: 5px solid white;
+        }
+      }
+    }
+  }
+
   #messenger {
     background: $darksideBlue;
 
