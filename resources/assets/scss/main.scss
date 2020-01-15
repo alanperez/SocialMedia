@@ -236,12 +236,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', end
 
   #updates {
     .update-container{
-      max-width: 600px;
+      max-width: 630px;
       width: 100%;
       margin: 0 auto;
+
       .author-info {
 
         display: flex;
+        padding: 0 15px;
 
         .user-img {
           display: inline-block;
@@ -268,6 +270,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', end
             margin: 0 10px;
           }
         }
+      }
+      .media {
+
+        position: relative;
+
+        .image {
+          position: relative;
+          z-index: 2;
+          margin: 25px 0 50px;
+          height: 300px;
+          width: 100%;
+          border-radius: 5px;
+          -webkit-box-shadow: 0px 32px 48px 0px rgba(59,71,99,1);
+          -moz-box-shadow: 0px 32px 48px 0px rgba(59,71,99,1);
+          box-shadow: 0px 32px 48px 0px rgba(59,71,99,1);
+        }
+      }
+
+      .padding-container{
+        padding: 0 15px;
+      }
+      .grey-container {
+        z-index: 1;
+        position: relative;
+        top: -50px;
+        padding: 50px 0;
+        background: $bgContent;
+        -webkit-box-shadow: 0px 21px 48px 0px rgba(59,71,99,0.5);
+        -moz-box-shadow: 0px 21px 48px 0px rgba(59,71,99,0.5);
+        box-shadow: 0px 21px 48px 0px rgba(59,71,99,0.5);
       }
     }
   }
