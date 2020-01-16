@@ -313,6 +313,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', end
 
           p {
             color: $ptext;
+            line-height: 2;
+            font-size: .8rem;
+            margin-bottom: 1rem;
           }
         }
       }
