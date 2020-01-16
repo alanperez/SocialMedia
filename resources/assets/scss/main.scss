@@ -300,6 +300,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', end
         -webkit-box-shadow: 0px 21px 48px 0px rgba(59,71,99,0.5);
         -moz-box-shadow: 0px 21px 48px 0px rgba(59,71,99,0.5);
         box-shadow: 0px 21px 48px 0px rgba(59,71,99,0.5);
+
+        .update-info {
+          h3 {
+            text-transform: uppercase;
+            font-weight: 600;
+            color: $htext;
+            line-height: 1.5;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+          }
+
+          p {
+            color: $ptext;
+          }
+        }
       }
     }
   }
