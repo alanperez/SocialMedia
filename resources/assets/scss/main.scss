@@ -211,9 +211,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', end
           border-radius: 50%;
           // display: inline-block;
           font-size: 1rem;
-          -webkit-box-shadow: 0px 0px 15px -3px rgba(191,191,191,1);
-          -moz-box-shadow: 0px 0px 15px -3px rgba(191,191,191,1);
-          box-shadow: 0px 0px 15px -3px rgba(191,191,191,1);
+          box-shadow: $boxShadowBtns;
           color: $htext;
           &.send-btn {
             color: white;
@@ -340,7 +338,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', end
               
               .fa-thumbs-up {
                 position: relative;
-                top: -1px
+                top: -1px;
+                box-shadow: 0 0 15px -3px #bfbfbf;
+
               }
             }
           }
@@ -350,15 +350,73 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', end
             justify-content: center;
             align-items: center;
             color: $veryLightText;
-            font-size: 0.7 rem;
+            font-size: 0.8 rem;
           }
           .comments-stats {
             display: flex;
-            justify-content: flex-end;
+            padding-left: 10px;
+            justify-content: flex-start;
             align-items: center;
             width: 30%;
             color: $veryLightText;
-            font-size: 0.7rem;
+            font-size: 0.8rem;
+          }
+        }
+        .compose-comments {
+          display: flex;
+          justify-content: space-between;
+          position: relative;
+
+          .fa-comment {
+            z-index: 1;
+            position: absolute;
+            bottom: 0;
+            font-size: 2rem;
+            color: white;
+          }
+          textarea {
+            position: relative;
+            z-index: 2;
+            border: none;
+            height: 40px;
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 0 15px -3px #bfbfbf;
+          }
+
+          .buttons {
+            display: flex;
+            
+            .repost-btn {
+              height: 40px;
+              width: 40px;
+              background: white;
+              box-shadow: 0 5px 15px -3px #bfbfbf;
+              color: $darksideBlue;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 50%;
+              margin-left: 20px;
+            }
+
+            .like-btn {
+              height: 40px;
+              width: 40px;
+              background: linear-gradient(to bottom, #32adff 0%, #0178ff 100%);
+              box-shadow: 0 0 15px -3px #bfbfbf;
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 50%;
+              margin-left: 20px;
+
+              .fa-thumbs-up {
+                position: relative;
+                top: -2px;
+              }
+            }
           }
         }
       }
