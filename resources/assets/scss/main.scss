@@ -54,6 +54,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', end
   max-width: 1400px;
   background: #fff;
   min-height:  calc(100vh - 15vh);
+  overflow: hidden;
   border-radius: 5px;
   display: grid;
   grid-template-columns: 15% 65% 20%;
@@ -108,7 +109,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', end
   }
 
   #content-container {
+
     overflow: hidden;
+    height: 900px;
+
+    .content-area {
+      box-sizing: content-box;
+      width: 100%;
+      height: calc(100% - 53px);
+      overflow: auto;
+      padding: 0 15px 0 8px;
+    }
+
     .search-header {
       padding: 10px;
       position: relative;
@@ -176,6 +188,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', end
         border-radius: 4px;
         padding: 15px 30px;
         font-size: 1.2rem;
+        resize: none;
 
       }
 
@@ -382,6 +395,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', end
             width: 100%;
             border-radius: 20px;
             box-shadow: 0 0 15px -3px #bfbfbf;
+            resize: none;
           }
 
           .buttons {
