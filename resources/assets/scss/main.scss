@@ -440,6 +440,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', end
   #messenger {
     background: $darksideBlue;
 
+    .messenger-header {
+      display: flex;
+      height: 53.33;
+      background: linear-gradient(to right, rgba(1,120,255,1) 0%,
+      rgba(50,173,255,1) 100%);
+      font-size: 1.2rem;
+      padding: 10px;
+      color: white;
+
+      .messenger-icon {
+        height: 33.33px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .title {
+        color: white;
+        text-transform: capitalize;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .options-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+      }
+    }
   }
 }
 
