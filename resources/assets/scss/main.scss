@@ -335,7 +335,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', end
               color: white;
               border-radius: 50%;
               background: linear-gradient(to bottom, #32adff 0%, #0178ff 100%);
-              
+                
               .fa-thumbs-up {
                 position: relative;
                 top: -1px;
@@ -355,7 +355,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', end
           .comments-stats {
             display: flex;
             padding-left: 10px;
-            justify-content: flex-start;
+            justify-content: flex-end;
             align-items: center;
             width: 30%;
             color: $veryLightText;
