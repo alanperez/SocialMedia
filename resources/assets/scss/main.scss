@@ -53,7 +53,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', end
   width: 100%;
   max-width: 1400px;
   background: #fff;
-  min-height:  calc(100vh - 15vh);
+  // min-height:  calc(100vh - 15vh);
+  height: 800px;
   overflow: hidden;
   border-radius: 5px;
   display: grid;
