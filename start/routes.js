@@ -16,4 +16,5 @@
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use('Route')
 
-Route.on('/').render('pages/home')
+// Route.on('/').render('pages/home')
+Route.get('/', 'PageController.home')
