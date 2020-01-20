@@ -17,5 +17,5 @@
 const Route = use('Route')
 
 // Route.on('/').render('pages/home')
-Route.get('/', 'PageController.welcome')
-Route.get('/home', 'PageController.home')
+// Route.get('/', 'PageController.welcome')
+// Route.get('/home', 'PageController.home')
