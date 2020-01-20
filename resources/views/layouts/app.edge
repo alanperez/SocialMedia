@@ -7,7 +7,9 @@
   {{--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">  --}}
 </head>
 <body>
-  <div class="app-container">
+  <div class="app-container
+    @!section('current-class')
+  ">
     <section id="left-menu">
       <div class="account-dropdown">
         <div class="logo">
@@ -66,7 +68,7 @@
       </div>
 
       <div class="content-area">
-        @!@!section('content-area')
+        @!section('content-area')
       </div>
     </section>
 
