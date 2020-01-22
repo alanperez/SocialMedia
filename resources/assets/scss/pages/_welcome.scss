@@ -1,1 +1,10 @@
-// x
+.app-container.welcome-page {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  .home-container {
+    background: white;
+    height: 100%;
+  }
+}
